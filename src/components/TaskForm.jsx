@@ -19,7 +19,7 @@ const TaskForm = () => {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        className="flex-1 p-3 border rounded-lg text-lg outline-none bg-white/30 backdrop-blur-md placeholder-gray-200 text-white"
+        className="flex-1 p-3 border rounded-lg text-lg outline-none bg-white/30  placeholder-gray-200 text-black"
         placeholder="Add a new task..."
       />
       <button
